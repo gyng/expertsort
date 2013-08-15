@@ -2,7 +2,7 @@
 
 Expertsort (stylised EXPERTSORT) is a collection of EXPERT PROGRAMMER sorting algorithms.
 
-Ever felt that sorting in Ruby is too fast?
+Ever felt that sorting in Ruby is efficient?
 
 Need a slow algorithm for v0.0.1 of your application?
 
@@ -27,6 +27,8 @@ Or install it yourself as:
     $ gem install expertsort
 
 ## Usage
+
+    require 'expertsort'
 
     [5, 4, 3, 1, 2].bogosort
     => [1, 2, 3, 4, 5]

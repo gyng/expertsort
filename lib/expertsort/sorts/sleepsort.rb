@@ -10,7 +10,7 @@ module Expertsort
         raise RangeError, "Cannot sleep sort an array with negative elements: #{e}" if e.to_i < 0
         threads << Thread.new do
           sleep e.to_i
-          semaphore.synchronize { sorted << e.to_i }
+          semaphore.synchronize { sorted << e }
         end
       end
 

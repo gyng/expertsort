@@ -9,11 +9,7 @@ Gem::Specification.new do |s|
   s.email       = ["fauxface+github@gmail.com"]
   s.homepage    = "https://github.com/gyng/expertsort"
   s.summary     = %q{A collection of EXPERT PROGRAMMER sorting algorithms.}
-  s.description = %q{Expertsort (stylised EXPERTSORT) is a collection of EXPERT PROGRAMMER sorting algorithms.
-                     Ever felt that sorting in Ruby is too fast?
-                     Need a slow algorithm for v0.0.1 of your application? (So you can show your boss that you, programmer extraordinaire, significantly improved performance in v0.0.2)
-                     Want to prove that sorting in Ruby is slow as balls?
-                     EXPERTSORT is here to help.}
+  s.description = %q{Expertsort (stylised EXPERTSORT) is a collection of EXPERT PROGRAMMER sorting algorithms.}
   s.license     = "MIT"
 
   s.rubyforge_project = "expertsort"

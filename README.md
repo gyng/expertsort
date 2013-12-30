@@ -2,15 +2,7 @@
 
 Expertsort (stylised EXPERTSORT) is a collection of EXPERT PROGRAMMER sorting algorithms.
 
-Ever felt that sorting in Ruby is efficient?
-
-Need a slow algorithm for v0.0.1 of your application?
-
-Is your hardware too fast?
-
-Want to prove that sorting in Ruby is slow as balls?
-
-EXPERTSORT is here to help.
+Need help with sorting homework? EXPERTSORT is here to help.
 
 ## Installation
 

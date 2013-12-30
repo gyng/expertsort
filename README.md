@@ -39,6 +39,10 @@ Or install it yourself as:
 
 * `bogosort`, `bogosort!`
 
+### Bogobogosort
+
+* `bogobogosort`, `bogobogosort!`
+
 ### Stoogesort
 
 * `stoogesort`, `stoogesort!`

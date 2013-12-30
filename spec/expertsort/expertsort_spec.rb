@@ -75,4 +75,23 @@ describe Array do
       expect(Time.now).to be > start_time + 1
     end
   end
+
+  describe 'BogoBogoSort' do
+    it 'sorts' do
+      expect([4, 3, 1, 2].bogobogosort).to eq([1, 2, 3, 4])
+    end
+
+    it 'has a destructive method' do
+      array = [4, 3, 1, 2].dup
+      old_object_id = array.object_id
+      array.bogobogosort!
+      expect(old_object_id).to eq(array.object_id)
+    end
+
+    it 'takes a very long time' do
+      start_time = Time.now
+      @unsorted.bogobogosort
+      expect(Time.now).to be > start_time + 3
+    end
+  end
 end

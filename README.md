@@ -1,5 +1,7 @@
 # EXPERTSORT
 
+[![Build Status](https://travis-ci.org/gyng/expertsort.svg?branch=master)](https://travis-ci.org/gyng/expertsort)
+
 Expertsort (stylised EXPERTSORT) is a collection of EXPERT PROGRAMMER sorting algorithms.
 
 Need help with sorting homework? EXPERTSORT is here to help.
